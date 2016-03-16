@@ -1,0 +1,8 @@
+body {
+	background: #eee;
+}
+.wrapper {
+	background-color: #ddd;
+	width: 968px;
+	border: 1px solid #ccc;
+}

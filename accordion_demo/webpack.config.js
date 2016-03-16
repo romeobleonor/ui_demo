@@ -10,5 +10,10 @@ module.exports = {
 		filename: '[name].js',
 		path: path.join(__dirname, './build'),
 		publicPath: './build'
+	},
+	module: {
+		loaders: [
+			{ test: /\.(css)$/, loader: 'style-loader!css-loader' }
+		]
 	}
 }
