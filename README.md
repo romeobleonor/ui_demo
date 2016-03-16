@@ -10,6 +10,10 @@
 		* Add the changes - *git add*
 		* Execute first commit - *git commit -m 'first commit'*
 		* Publish the initial updates - *git push origin master*
-	- dummy
+	- Install packages:
+		(webpack, webpack-dev-server, node-sass, css-loader, style-loader, file-loader)
+	- Create webpack.config.js
+	- Structure the files / folder
+	
 2.  March 04, 2016
 	- XXX
