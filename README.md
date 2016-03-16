@@ -12,8 +12,14 @@
 		* Publish the initial updates - *git push origin master*
 	- Install packages:
 		(webpack, webpack-dev-server, node-sass, css-loader, style-loader, file-loader)
-	- Create webpack.config.js
-	- Structure the files / folder
-	
+	- Create webpack.config.js for each demo
+	- Accordion demo
+		> All ROADS that lead to SUCCESS have to pass through HARD WORK boulevard at some point
+
+		* Simulate the issue and start a simple collaboration between romeobleonor and igMarketingLeonor
+		* Resolve the first issue. https://github.com/romeobleonor/ui_demo/issues/1
+		* 
+
+
 2.  March 04, 2016
 	- XXX
