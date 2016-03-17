@@ -1,0 +1,1 @@
+document.write("Test - Hot reload - #7");
