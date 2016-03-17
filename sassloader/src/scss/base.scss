@@ -1,0 +1,43 @@
+/* BASE: Reset/normalize, typography rules */
+// ==========================================================================
+
+// @import './base/_reset.scss';
+@import './base/_normalize.scss';
+
+
+/* COMPONENTS: Buttons, Carousel, Dropdown, Modal, Box, Navigation, Slider, Widget */  
+// ==========================================================================
+
+// @import 'components/module';
+
+
+/* LAYOUT: Header, Footer, Grid, Sidebar, Forms, */
+// ==========================================================================
+
+// @import 'layout/module';
+
+
+/* PAGES: Home page, About page, Contact page */
+// ==========================================================================
+
+// @import 'pages/module';
+
+
+/* THEME: Theme, Admin */
+// ==========================================================================
+
+// @import 'themes/module';
+
+
+/* HELPER: variable, function, mixins, helpers */
+// ========================================================================== 
+@import 'helpers/variables';
+
+/* VENDOR: Bootstrap, Foundation, jQuery-ui, fancycarouselsliderjquerypowered */
+// ========================================================================== 
+
+// @import 'vendors/module';
+
+/* TEMP: To be Temporary CSS */
+// ========================================================================== 
+@import 'temp'

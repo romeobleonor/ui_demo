@@ -1,0 +1,21 @@
+body {
+	background: $mainBg;
+}
+
+.wrapper {
+	p {
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+.dynamicContent {
+	background: $color-main-lighter;
+	color: $color-default-dark;
+	padding: 6px;
+	width: 400px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border: 1px solid $color-alt-dark;
+}
