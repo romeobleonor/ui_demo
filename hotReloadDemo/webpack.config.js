@@ -1,10 +1,10 @@
 var webpack = require('webpack');
 var path = require('path');
 
-var entryFiles = {main: './src/scripts/main.js'}
+var entryScript = ["./src/scripts/main.js"];
 
 module.exports = {
-	entry: loadEntryFile(entryFiles),
+	entry: loadEntries(entryScript),
 
 	output: {
 		filename: '[name].js',
@@ -18,11 +18,11 @@ module.exports = {
 }
 
 
-function loadEntryFile(entries){
+function loadEntries(list){
 	if(process.env.NODE_ENV !== 'production'){
-		entries.localClient = 'webpack-dev-server/client?http://localhost:8080';
-		entries.localHot = 'webpack/hot/dev-server';
+		list.push("webpack-dev-server/client?http://localhost:8080");		
+		list.push("webpack/hot/dev-server");
 	}
 
-	return entries;
+	return list;
 }
