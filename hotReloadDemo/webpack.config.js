@@ -1,6 +1,3 @@
-var webpack = require('webpack');
-var path = require('path');
-
 var entryScript = ["./src/scripts/main.js"];
 
 module.exports = {
